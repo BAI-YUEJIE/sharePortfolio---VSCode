@@ -30,7 +30,12 @@ public class ActionSimple extends Action {
     // attribut lien
     private final Map<Jour, Float> mapCours;
 
-    // constructeur
+    /**
+     * Builds un actionsimple object from a label
+     * 
+     * @param libelle the given string label
+     */ 
+
     public ActionSimple(final String libelle) {
         // Action simple initialisée comme 1 action
         super(libelle);
